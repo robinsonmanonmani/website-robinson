@@ -49,8 +49,10 @@ export class Intro implements OnInit{
 		  var canvas = document.getElementsByTagName('canvas')[0];
 		  //canvas.width = document.body.clientWidth;
 		  canvas.width = document.getElementsByClassName('row')[0].clientWidth;
+		  //canvas.width = screen.height;
 		  //canvas.height = document.body.clientHeight;
 		  canvas.height = Number($('canvas').parents('.container').css('height').split('px')[0]);
+		  //canvas.height = screen.width;
 		  
 		  var ctx = canvas.getContext('2d');
 		  
