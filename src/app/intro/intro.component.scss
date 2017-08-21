@@ -10,7 +10,7 @@
     justify-content: center;
 }
 .tagline{
-    padding: 250px 50px 50px 5px;
+    margin-top: -260px;
 }
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
@@ -50,4 +50,20 @@ body {
   100% {
     opacity: 1;
   }
+}
+
+
+
+
+//@import "https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:400";
+
+
+div.absolute-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  visibility: visible;
+  transition: all .5s;
 }
