@@ -15,3 +15,134 @@
 .education {
     line-height: 80px;
 }
+.jenkins {
+    background-image: url('../../assets/images/jenkins.png');
+    background-repeat: no-repeat;
+    line-height: 90px;
+    padding-left: 90px;
+    background-size: contain;
+}
+.grunt {
+    background-image: url('../../assets/images/grunt.png');
+    background-repeat: no-repeat;
+    line-height: 90px;
+    padding-left: 90px;
+    background-size: contain;
+    font-size: larger;
+}
+.gulp {
+    background-image: url('../../assets/images/gulp.png');
+    background-repeat: no-repeat;
+    line-height: 90px;
+    padding-left: 52px;
+    margin-left: 30px;
+    background-size: contain;
+    font-size: larger;
+}
+.gradle {
+    background-image: url('../../assets/images/gradle.png');
+    background-repeat: no-repeat;
+    line-height: 90px;
+    padding-left: 103px;
+    background-size: contain;
+    font-size: larger;
+}
+.github {
+    background-image: url('../../assets/images/github.png');
+    background-repeat: no-repeat;
+    line-height: 74px;
+    padding-left: 75px;
+    background-size: 70px;
+    font-size: large;
+}
+.subversion {
+    background-image: url('../../assets/images/subversion.png');
+    background-repeat: no-repeat;
+    line-height: 74px;
+    padding-left: 77px;
+    background-size: 70px;
+    font-size: large;
+    margin-left: 10px;
+}
+.clearcase {
+    background-image: url('../../assets/images/clearcase.png');
+    background-repeat: no-repeat;
+    line-height: 74px;
+    padding-left: 75px;
+    background-size: 70px;
+    font-size: large;
+    margin-left: 10px;
+}
+.vscode {
+    background-image: url('../../assets/images/vscode.png');
+    background-repeat: no-repeat;
+    line-height: 74px;
+    padding-left: 75px;
+    background-size: 70px;
+    font-size: large;
+    margin-left: 10px;
+}
+.eclipse {
+    background-image: url('../../assets/images/eclipse.png');
+    background-repeat: no-repeat;
+    line-height: 74px;
+    padding-left: 75px;
+    background-size: 70px;
+    font-size: large;
+    margin-left: 10px;
+}
+.rad {
+    background-image: url('../../assets/images/rad.png');
+    background-repeat: no-repeat;
+    line-height: 74px;
+    padding-left: 75px;
+    background-size: 70px;
+    font-size: large;
+    margin-left: 10px;
+}
+.jira {
+    background-image: url('../../assets/images/jira.png');
+    background-repeat: no-repeat;
+    line-height: 74px;
+    padding-left: 75px;
+    background-size: 70px;
+    font-size: large;
+    margin-left: 10px;
+}
+.confluence {
+    background-image: url('../../assets/images/confluence.png');
+    background-repeat: no-repeat;
+    line-height: 74px;
+    padding-left: 75px;
+    background-size: 70px;
+    font-size: large;
+    margin-left: 10px;
+    background-position-y: 6px;    
+}
+.hpqc {
+    background-image: url('../../assets/images/hpqc.png');
+    background-repeat: no-repeat;
+    line-height: 74px;
+    padding-left: 75px;
+    background-size: 70px;
+    font-size: large;
+    background-position-y: 6px;
+}
+.sharepoint {
+    background-image: url('../../assets/images/sharepoint.png');
+    background-repeat: no-repeat;
+    line-height: 74px;
+    padding-left: 75px;
+    background-size: 70px;
+    font-size: large;
+    margin-left: 10px;
+}
+.horiznotalUl {
+    display: inline-flex;
+    list-style: none;
+}
+.projectToolsUl {
+    display: inline-flex;
+    list-style: none;
+    padding-left: 0px;
+}
