@@ -9,6 +9,7 @@ import { Component, OnInit  } from '@angular/core';
 
 export class Intro implements OnInit{
     ngOnInit(){
+		
 		var app = {
 			text: "Hi! I'm a UI Developer. I like to code, automate stuff and do fun things..",
 			index: 0,
@@ -102,20 +103,30 @@ export class Intro implements OnInit{
 		  }
 		  
 		  
-		  
+			window.addEventListener("deviceorientation", deviceOrientationListener);
 		  /*ANIMATION*/
 		  
 		  document.onmousemove = function(ev) {
 			  mouseX = ev.pageX - canvas.offsetLeft;
 			  mouseY = ev.pageY - canvas.offsetTop;
-		  
+			  console.log(mouseY);
 			  if (window.requestAnimationFrame) {
 				  requestAnimationFrame(update);
 			  } else {
 				  update();
 			  }
 		  };
-		  
+		function deviceOrientationListener(event) {
+			mouseX = event.gamma*8 - canvas.offsetLeft;
+			mouseY = event.beta*8 - canvas.offsetTop;
+			console.log(mouseY);
+		
+			if (window.requestAnimationFrame) {
+				requestAnimationFrame(update);
+			} else {
+				update();
+			}
+		}
 		  function update() {
 			  clear();
 			  render();
@@ -168,5 +179,5 @@ export class Intro implements OnInit{
 		//   window.onresize = function() {
 		// 	  location.reload();
 		//   };
-	}   
+	}
 }
