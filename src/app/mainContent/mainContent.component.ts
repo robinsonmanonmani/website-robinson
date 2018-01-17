@@ -48,7 +48,7 @@ export class MainContent implements OnInit{
             });
         });
         var consoleStyle = [
-            'background: linear-gradient(#D33106, #571402)'
+            'background: linear-gradient(#000000, #aeaeae)'
             , 'border: 1px solid #3E0E02'
             , 'color: white'
             , 'display: block'
@@ -58,9 +58,10 @@ export class MainContent implements OnInit{
             , 'text-align: center'
             , 'font-weight: bold'
             , 'font-size: 100px'
+            , 'font-family: cursive'
         ].join(';');
         console.clear();
-        console.log('%c Robinson Manonmani', consoleStyle);
+        console.log('%c Robinson Manonmani ', consoleStyle);
     }
     titleIn(title){
         this[title]=this.titleValues[title+'In'];
