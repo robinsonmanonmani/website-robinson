@@ -55,7 +55,7 @@ export class Intro implements OnInit{
 		  
 		  //possible characters that will appear
 		  //var characterList = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
-		  var characterList = ['Angular4', 'jQuery', 'CSS', 'SCSS', 'HTML5', 'Java', 'BootStrap 4', 'NodeJS', 'Grunt', 'Karma', 'Jasmine' ];
+		  var characterList = ['Angular4', 'jQuery', 'NodeJS', 'Robin', 'UI Developer', 'Java', 'Jenkins', 'CICD', 'Automation', 'Responsive UI', 'Jasmine', 'Protractor'];
 		  
 		  //stocks possible character attributes
 		  var layers = {

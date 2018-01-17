@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-lg-6 col-xl-6 topmargin">
             <div class="card maxHeight">
-                <div class="card-header text-center"><h3>$('.friends .fun .bikerdays')</h3></div>
+                <div class="card-header text-center fade swing" (mouseleave)="titleOut('education')" (mouseenter)="titleIn('education')"><h3>{{education}}</h3></div>
                 <div class="card-block text-center education">
                     <p class="card-text fa fa-graduation-cap"> Bachelor's Degree, Computer Science
                     <br><small class="text-muted">Anna University, Chennai, India</small></p>
@@ -15,7 +15,7 @@
         
         <div class="col-lg-6 col-xl-6 topmargin">
             <div class="card">
-                <div class="card-header"><h3>$('.family .money .bills')</h3></div>
+                <div class="card-header fade swing" (mouseleave)="titleOut('experience')" (mouseenter)="titleIn('experience')"><h3>{{experience}}</h3></div>
                 <div class="card-block">
                     <p><span class="fa fa-cog fa-spin"></span> UI Developer, <strong>Delta Air Lines </strong><small class="text-muted fa fa-map-marker"> Atlanta, GA</small></p>
                     <p><span class="fa fa-check"></span> UI Developer, <strong>The Nielsen Company </strong><small class="text-muted fa fa-map-marker"> Chicago, IL</small></p>
@@ -26,7 +26,7 @@
         </div>
     </div>
     <div class="card topmargin">
-        <div class="card-header"><h3>It is not what I code underneath, but how it executes that defines me - Robin</h3></div>
+        <div class="card-header fade swing" (mouseleave)="titleOut('coding')" (mouseenter)="titleIn('coding')"><h3>{{coding}}</h3></div>
         <div class="card-block">
             <div class="row">
                 <div class="col-lg-12 col-xl-12 topmargin">
@@ -126,7 +126,7 @@
         </div>
     </div>
     <div class="card topmargin">
-        <div class="card-header"><h3>Stuff I've worked on..</h3></div>
+        <div class="card-header fade swing" (mouseleave)="titleOut('tools')" (mouseenter)="titleIn('tools')"><h3>{{tools}}</h3></div>
         <div class="card-block">
             <div class="row">
                 <div class="col-lg-6 col-xl-6">
@@ -249,7 +249,7 @@
         </div>
     </div>
     <div class="card topmargin">
-        <div class="card-header"><h3>$('.pay-raise .promotion .my-success-stories')</h3></div>
+        <div class="card-header fade swing" id="success" (mouseleave)="titleOut('success')" (mouseenter)="titleIn('success')"><h3>{{success}}</h3></div>
         <div class="card-block">
             <div class="row">
                 <div class="col-lg-6 col-xl-6">
@@ -269,6 +269,17 @@
                         <li class=""> Setting up Availability tests using custom coded scripts and Jenkins HTML Publisher plugin</li>
                         <li class=""> Setting up Security & Vulnerability tests using OWASP ZAP</li>
                     </ul>
+                    <div class="containerGutter"></div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card topmargin">
+        <div class="card-header fade swing" id="contact" (mouseleave)="titleOut('contact')" (mouseenter)="titleIn('contact')"><h3>{{contact}}</h3></div>
+        <div class="card-block">
+            <div class="row">
+                <div class="col-lg-6 col-xl-6">
+                    Content under construction
                     <div class="containerGutter"></div> 
                 </div>
             </div>

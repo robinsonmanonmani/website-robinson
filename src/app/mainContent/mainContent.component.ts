@@ -8,7 +8,27 @@ import * as $ from "jquery";
 })
 
 export class MainContent implements OnInit{
-    
+    public education = "Education";
+    public experience = "Experience";
+    public coding = "Coding Skills";
+    public tools = "Tools";
+    public success = "Success Stories - Content under construction";
+    public contact = "Contact -  Content under construction";
+    public titleValues = {
+        "educationIn": "$('.friends .fun .bikerdays')",
+        "educationOut": "Education",
+        "experienceIn": "$('.family .money .bills')",
+        "experienceOut": "Experience",
+        "codingIn": "It is not what I code underneath, but how it executes that defines me - Robin",
+        "codingOut": "Coding Skills",
+        "toolsIn": "Stuff I've worked on..",
+        "toolsOut": "Tools",
+        "successIn": "$('.pay-raise .promotion .my-success-stories') - Content under construction",
+        "successOut": "Success Stories - Content under construction",
+        "contactIn": "Get in touch -  Content under construction",
+        "contactOut": "Contact -  Content under construction"
+    };
+
     ngOnInit(){
         $(function(){  // $(document).ready shorthand
             $('.monster').fadeIn('slow');
@@ -27,5 +47,11 @@ export class MainContent implements OnInit{
                 }); 
             });
         });
+    }
+    titleIn(title){
+        this[title]=this.titleValues[title+'In'];
+    }
+    titleOut(title){
+        this[title]=this.titleValues[title+'Out'];
     }
 }
