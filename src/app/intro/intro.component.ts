@@ -109,7 +109,6 @@ export class Intro implements OnInit{
 		  document.onmousemove = function(ev) {
 			  mouseX = ev.pageX - canvas.offsetLeft;
 			  mouseY = ev.pageY - canvas.offsetTop;
-			  console.log(mouseY);
 			  if (window.requestAnimationFrame) {
 				  requestAnimationFrame(update);
 			  } else {
@@ -119,7 +118,6 @@ export class Intro implements OnInit{
 		function deviceOrientationListener(event) {
 			mouseX = event.gamma*8 - canvas.offsetLeft;
 			mouseY = event.beta*8 - canvas.offsetTop;
-			console.log(mouseY);
 		
 			if (window.requestAnimationFrame) {
 				requestAnimationFrame(update);
